@@ -28,12 +28,24 @@ Este projeto foi desenvolvido para fins didáticos e de prática com bibliotecas
 - 📁 Estrutura modular de arquivos e fácil de expandir (ex: mais curiosidades).
 - 🔍 Identificação automática do país clicado via `feature.properties.name`.
 
----
+## 🚀 Como rodar o projeto localmente
 
-## ▶️ Como rodar localmente
+### Pré-requisitos
 
-### 1. Clone o repositório:
+- [Node.js](https://nodejs.org) instalado
+- [Git](https://git-scm.com) instalado
+
+### Passos
 
 ```bash
-git clone https://github.com/seu-usuario/mapa-curioso.git
+# Clone o repositório
+git clone https://github.com/VictorMateus26/mapa-curioso.git
+
+# Acesse a pasta
 cd mapa-curioso
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm start
